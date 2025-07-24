@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7E56D0E72E30E12700801CB4 /* learnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E56D0E32E30E12700801CB4 /* learnApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		7E56D0E32E30E12700801CB4 /* learnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnApp.swift; sourceTree = "<group>"; };
 		7E8602952D0F791C005CECEB /* learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +39,7 @@
 			children = (
 				7E8602972D0F791C005CECEB /* learn */,
 				7E8602962D0F791C005CECEB /* Products */,
+				7E56D0E32E30E12700801CB4 /* learnApp.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E56D0E72E30E12700801CB4 /* learnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
